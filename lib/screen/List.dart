@@ -55,7 +55,7 @@ class _ListofstudentsState extends State<Listofstudents> {
           style: TextStyle(color: Colors.white),
           decoration: InputDecoration(
               icon: Icon(Icons.search, color: Colors.white),
-              hintText: "Search the student details",
+              hintText: "Search by entering full name",
               hintStyle: TextStyle(color: Colors.white)),
         ),
         actions: <Widget>[
