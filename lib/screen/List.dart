@@ -53,6 +53,7 @@ class _ListofstudentsState extends State<Listofstudents> {
             _filterNames(value);
           },
           style: TextStyle(color: Colors.white),
+
           decoration: InputDecoration(
               icon: Icon(Icons.search, color: Colors.white),
               hintText: "Search by entering full name",
